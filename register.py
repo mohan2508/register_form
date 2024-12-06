@@ -5,7 +5,7 @@ conn=sqlite3.connect('register.db',check_same_thread=False)
 cursor=conn.cursor()
 
 def formCreation():
-    st.write('Please fill this form')
+    st.write(':rainbow[Please Fill This Form]')
     with st.form(key='Registration Form'):
         name = st.text_input('Enter your Name :')
         standard =st.text_input('Enter your Class :')
