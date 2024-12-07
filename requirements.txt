@@ -1,6 +1,5 @@
 streamlit == 1.39.0
-mysql == 8.0.37
-mesql-connector==8.0.37
+mesql.connector
 
 
    
