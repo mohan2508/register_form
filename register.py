@@ -6,7 +6,7 @@ st.image('https://th.bing.com/th/id/OIP.rhl1XV7nIE3sJymInBApNQHaEK?w=500&h=180&c
 
 mydb=mysql.connector.connect(
     host="127.0.0.1",
-    port='3306'
+    port='3306',
     user="root",
     password="aparnaa12",
     database="mohanclasses",
