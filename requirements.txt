@@ -1,5 +1,5 @@
 streamlit == 1.39.0
-sqlite3==3.26.0
+sqlite3==3.36.0
 
 
    
