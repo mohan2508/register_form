@@ -1,6 +1,9 @@
 import streamlit as st 
 import sqlite3
 
+st.header(':orange[MohanClasses]')
+st.image('https://th.bing.com/th/id/OIP.rhl1XV7nIE3sJymInBApNQHaEK?w=500&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7')
+
 conn=sqlite3.connect('register.db',check_same_thread=False)
 cursor=conn.cursor()
 
